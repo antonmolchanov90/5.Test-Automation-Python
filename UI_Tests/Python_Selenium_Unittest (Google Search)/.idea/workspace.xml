@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a6ab498-4451-4a8d-94e2-a0541d9c3c71" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../API_Tests/Python_Requests/Req | Res_API_Test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Selenium/.idea/Python_Selenium.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Selenium/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Selenium/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Selenium/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Selenium/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Selenium/FacebookLogin_UI_Test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Selenium/LoginDetails.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../API_Tests/Need to try Tavern" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_Selenium (Facebook LogIn)/FacebookLogin_LoginDetails.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,9 +44,10 @@
     <session id="-914738915">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -81,8 +77,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GoogleSearch_UI_Test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-33">
-              <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
+            <state>
+              <caret column="21" selection-start-column="21" selection-end-column="21" />
               <folding>
                 <element signature="e#48#63#0" expanded="true" />
               </folding>
@@ -100,7 +96,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -121,6 +117,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,11 +129,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/GoogleSearch_UI_Test.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../API_Tests/Python_Requests (Shopify API)" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -230,7 +226,7 @@
   <component name="ToolWindowManager">
     <frame x="1" y="0" width="1363" height="742" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11865672" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -253,20 +249,11 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Google_Search_Test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#48#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Google_Search_Test.py" />
     <entry file="file://$PROJECT_DIR$/GoogleSearch_UI_Test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33">
-          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
           <folding>
             <element signature="e#48#63#0" expanded="true" />
           </folding>

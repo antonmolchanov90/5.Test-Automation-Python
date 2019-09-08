@@ -1,97 +1,98 @@
-#Public API for testing - https://reqres.in/
+# Public API for testing - https://reqres.in/
 
 import requests
 
-#Query users
+# Query users
 response = requests.request('get', 'https://reqres.in/api/users?page=2')
 if response.status_code != 200:
- print('Error')
+    print('Error')
 else:
- print('Passed')
+    print('Passed')
 
-#Query single user
+# Query single user
 response = requests.request('get', 'https://reqres.in/api/users/2')
 if response.status_code != 200:
- print('Error')
+    print('Error')
 else:
- print('Passed')
+    print('Passed')
 
-#Query single user not found
+# Query single user not found
 response = requests.request('get', 'https://reqres.in/api/users/23')
 if response.status_code != 404:
- print('Error')
+    print('Error')
 else:
- print('Passed')
+    print('Passed')
 
-#Query list resource
+# Query list resource
 response = requests.request('get', 'https://reqres.in/api/unknown')
 if response.status_code != 200:
- print('Error')
+    print('Error')
 else:
- print('Passed')
+    print('Passed')
 
-#Query single resource
+# Query single resource
 response = requests.request('get', 'https://reqres.in/api/unknown/2')
 if response.status_code != 200:
- print('Error')
+    print('Error')
 else:
- print('Passed')
+    print('Passed')
 
-#Query single resource not found
+# Query single resource not found
 response = requests.request('get', 'https://reqres.in/api/unknown/23')
 if response.status_code != 404:
- print('Error')
+    print('Error')
 else:
- print('Passed')
+    print('Passed')
 
-#Query create user
-response = requests.request('post', 'https://reqres.in/api/users', data = {"name": "anton", "job": "qa"})
+# Query create user
+response = requests.request('post', 'https://reqres.in/api/users', data={"name": "anton", "job": "qa"})
 if response.status_code != 201:
- print('Error')
+    print('Error')
 else:
- print('Passed')
+    print('Passed')
 
-#Query update user (put)
-response = requests.request('put', 'https://reqres.in/api/users/2', data = {"name": "anton", "job": "qa/tester"})
+# Query update user (put)
+response = requests.request('put', 'https://reqres.in/api/users/2', data={"name": "anton", "job": "qa/tester"})
 if response.status_code != 200:
- print('Error')
+    print('Error')
 else:
- print('Passed')
+    print('Passed')
 
-#Query update user (patch)
-response = requests.request('patch', 'https://reqres.in/api/users/2', data = {"name": "anton", "job": "qa/qc/tester"})
+# Query update user (patch)
+response = requests.request('patch', 'https://reqres.in/api/users/2', data={"name": "anton", "job": "qa/qc/tester"})
 if response.status_code != 200:
- print('Error')
+    print('Error')
 else:
- print('Passed')
+    print('Passed')
 
-#Query delete user
+# Query delete user
 response = requests.request('delete', 'https://reqres.in/api/users/2')
 if response.status_code != 204:
- print('Error')
+    print('Error')
 else:
- print('Passed')
+    print('Passed')
 
-#Query register - positive
-response = requests.request('post', 'https://reqres.in/api/register', data = {"email" : "amol4anoff@mail.ru", "password" : "123!"})
+# Query register - positive
+response = requests.request('post', 'https://reqres.in/api/register',
+                            data={"email": "amol4anoff@mail.ru", "password": "123!"})
 print(response.text)
 
-#Query register - negative
-response = requests.request('post', 'https://reqres.in/api/register', data = {"email" : "amol4anoff@mail.ru"})
+# Query register - negative
+response = requests.request('post', 'https://reqres.in/api/register', data={"email": "amol4anoff@mail.ru"})
 print(response.text)
 
-#Query login - positive
-response = requests.request('post', 'https://reqres.in/api/login', data = {"email" : "amol4anoff@mail.ru", "password" : "123!"})
+# Query login - positive
+response = requests.request('post', 'https://reqres.in/api/login',
+                            data={"email": "amol4anoff@mail.ru", "password": "123!"})
 print(response.text)
 
-#Query login - negative
-response = requests.request('post', 'https://reqres.in/api/login', data = {"password" : "123!"})
+# Query login - negative
+response = requests.request('post', 'https://reqres.in/api/login', data={"password": "123!"})
 print(response.text)
 
-#Query delayed response
+# Query delayed response
 response = requests.request('get', 'https://reqres.in/api/users?delay=3')
 if response.status_code != 200:
- print('Error')
+    print('Error')
 else:
- print('Passed')
-
+    print('Passed')
