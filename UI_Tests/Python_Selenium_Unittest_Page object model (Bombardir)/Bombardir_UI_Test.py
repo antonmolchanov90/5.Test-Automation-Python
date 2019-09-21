@@ -9,7 +9,6 @@ from Bombardir_PageObject import *
 
 # Test Bombardir football site - simple positive test case
 
-
 class CheckBombardir(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome(MainPageDetails.bomDriver)

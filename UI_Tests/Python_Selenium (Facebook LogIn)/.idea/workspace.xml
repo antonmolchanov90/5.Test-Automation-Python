@@ -3,12 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="1c0e4a68-6cf7-4a59-8f17-5cdc7d370813" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FacebookLogin_Locators.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/FacebookLogin_LoginDetails.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/FacebookLogin_UI_Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/FacebookLogin_UI_Test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Python_Selenium_Unittest (Google Search)/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Selenium_Unittest (Google Search)/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Python_Selenium_Unittest (Google Search)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Selenium_Unittest (Google Search)/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Python_Selenium_Unittest (Google Search)/GoogleSearch_UI_Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Selenium_Unittest (Google Search)/GoogleSearch_UI_Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_Selenium_Unittest_Page object model (Bombardir)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Selenium_Unittest_Page object model (Bombardir)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_Selenium_Unittest_Page object model (Bombardir)/Bombardir_UI_Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Selenium_Unittest_Page object model (Bombardir)/Bombardir_UI_Test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,11 +83,12 @@
     <session id="2122782796">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -111,7 +115,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FacebookLogin_UI_Test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -123,7 +127,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FacebookLogin_Details.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -160,6 +164,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,7 +176,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -207,7 +211,7 @@
     <frame x="1" y="0" width="1363" height="742" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32985073" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -234,10 +238,11 @@
     <entry file="file://$PROJECT_DIR$/LoginDetails.py" />
     <entry file="file://$PROJECT_DIR$/Locators.py" />
     <entry file="file://$PROJECT_DIR$/FacebookLogin_LoginDetails.py" />
-    <entry file="file://$PROJECT_DIR$/FacebookLogin_Locators.py">
+    <entry file="file://$PROJECT_DIR$/FacebookLogin_Locators.py" />
+    <entry file="file://$PROJECT_DIR$/FacebookLogin_Details.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -248,13 +253,6 @@
           <folding>
             <element signature="e#47#77#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FacebookLogin_Details.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
