@@ -9,6 +9,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 
 
+# Test how Google search works - positive test case
+
 class GoogleSearchTest(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome('/opt/chromedriver')

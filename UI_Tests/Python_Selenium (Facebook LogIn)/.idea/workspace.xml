@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c0e4a68-6cf7-4a59-8f17-5cdc7d370813" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Python_Selenium_Unittest ()/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python_Selenium_Unittest ()/Google_Search_Test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../API_Tests/Python_Requests/Req | Res_API_Test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Selenium/.idea/Python_Selenium.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Selenium/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Selenium/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Selenium/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Selenium/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Selenium/FacebookLogin_UI_Test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Selenium/LoginDetails.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FacebookLogin_Locators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FacebookLogin_LoginDetails.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FacebookLogin_UI_Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/FacebookLogin_UI_Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_Selenium_Unittest (Google Search)/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Selenium_Unittest (Google Search)/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_Selenium_Unittest (Google Search)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Selenium_Unittest (Google Search)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_Selenium_Unittest (Google Search)/GoogleSearch_UI_Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Selenium_Unittest (Google Search)/GoogleSearch_UI_Test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,22 +80,42 @@
     <session id="2122782796">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="92" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="92" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FacebookLogin_UI_Test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-line="2" />
+              <caret column="21" selection-start-column="21" selection-end-column="21" />
               <folding>
                 <element signature="e#47#77#0" expanded="true" />
               </folding>
@@ -106,8 +123,8 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FacebookLogin_LoginDetails.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FacebookLogin_Details.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="21" selection-start-column="21" selection-end-column="21" />
@@ -118,7 +135,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -126,9 +143,9 @@
         <option value="$PROJECT_DIR$/password.py" />
         <option value="$PROJECT_DIR$/Locators.py" />
         <option value="$PROJECT_DIR$/LoginDetails.py" />
-        <option value="$PROJECT_DIR$/FacebookLogin_UI_Test.py" />
-        <option value="$PROJECT_DIR$/FacebookLogin_Locators.py" />
         <option value="$PROJECT_DIR$/FacebookLogin_LoginDetails.py" />
+        <option value="$PROJECT_DIR$/FacebookLogin_Locators.py" />
+        <option value="$PROJECT_DIR$/FacebookLogin_UI_Test.py" />
       </list>
     </option>
   </component>
@@ -143,7 +160,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,6 +171,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -190,7 +207,7 @@
     <frame x="1" y="0" width="1363" height="742" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -216,24 +233,25 @@
     <entry file="file://$PROJECT_DIR$/password.py" />
     <entry file="file://$PROJECT_DIR$/LoginDetails.py" />
     <entry file="file://$PROJECT_DIR$/Locators.py" />
+    <entry file="file://$PROJECT_DIR$/FacebookLogin_LoginDetails.py" />
     <entry file="file://$PROJECT_DIR$/FacebookLogin_Locators.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FacebookLogin_UI_Test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="2" />
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
           <folding>
             <element signature="e#47#77#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FacebookLogin_LoginDetails.py">
+    <entry file="file://$PROJECT_DIR$/FacebookLogin_Details.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="21" selection-start-column="21" selection-end-column="21" />

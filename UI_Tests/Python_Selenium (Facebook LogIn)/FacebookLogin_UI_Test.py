@@ -2,68 +2,67 @@
 # -*- coding: utf-8 -*-
 
 from selenium import webdriver
-from FacebookLogin_LoginDetails import*
-from FacebookLogin_Locators import*
+from FacebookLogin_Details import*
 
 
-#POSITIVE CASE - SIMPLE VERIFICATION
+# POSITIVE CASE - SIMPLE VERIFICATION
 
-#Open browser, enter Facebook
+# Open browser, enter Facebook
 driver = webdriver.Chrome("/opt/chromedriver")
 driver.get("https://www.facebook.com")
 
-#Locate elements, pass email & password (both empty), click Log In button
+# Locate elements, pass email & password (both empty), click Log In button
 driver.find_element_by_id(email).send_keys(login)
 driver.find_element_by_id(passWord).send_keys(password)
 driver.find_element_by_id(loginButton).click()
 
-#Assert successfull login
+# Assert successful login
 if driver.title == 'Facebook':
- print('Passed!')
+    print('Passed!')
 else:
- print('Failed!')
+    print('Failed!')
 
-#Close browser
+# Close browser
 driver.quit()
 
 
-#NEGATIVE CASE 1
+# NEGATIVE CASE 1
 
-#Open browser, enter Facebook
+# Open browser, enter Facebook
 driver = webdriver.Chrome("/opt/chromedriver")
 driver.get("https://www.facebook.com")
 
-#Locate elements, pass email & password (both empty), click Log In button
+# Locate elements, pass email & password (both empty), click Log In button
 driver.find_element_by_id(email).send_keys("")
 driver.find_element_by_id(passWord).send_keys("")
 driver.find_element_by_id(loginButton).click()
 
-#Assert unsuccessfull login
+# Assert unsuccessful login
 if driver.title == 'Log into Facebook | Facebook':
- print('Passed!')
+    print('Passed!')
 else:
- print('Failed!')
+    print('Failed!')
 
-#Close browser
+# Close browser
 driver.quit()
 
 
-#NEGATIVE CASE 2
+# NEGATIVE CASE 2
 
-#Open browser, enter Facebook
+# Open browser, enter Facebook
 driver = webdriver.Chrome("/opt/chromedriver")
 driver.get("https://www.facebook.com")
 
-#Locate elements, pass email & password (both empty), click Log In button
+# Locate elements, pass email & password (both empty), click Log In button
 driver.find_element_by_id(email).send_keys(login)
 driver.find_element_by_id(passWord).send_keys("")
 driver.find_element_by_id(loginButton).click()
 
-#Assert unsuccessfull login
+# Assert unsuccessful login
 if driver.title == 'Log into Facebook | Facebook':
- print('Passed!')
+    print('Passed!')
 else:
- print('Failed!')
+    print('Failed!')
 
-#Close browser
+# Close browser
 driver.quit()

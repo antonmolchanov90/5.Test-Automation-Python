@@ -2,7 +2,10 @@
 # -*- coding: utf-8 -*-
 
 
-#Page Locators
+# Page Details
+
 email = 'email'
 passWord = 'pass'
 loginButton = 'loginbutton'
+login = 'login'
+password = 'password'
