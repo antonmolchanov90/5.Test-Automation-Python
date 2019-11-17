@@ -29,18 +29,23 @@ class BombardirTest(BaseClass):
         bom_rus = WebDriverWait(driver, 100).until(
             ec.presence_of_element_located((By.CSS_SELECTOR, '#dropdownMenu01')))
         bom_rus.click()
+        driver.implicitly_wait(5)
         bom_eng = WebDriverWait(driver, 100).until(
             ec.presence_of_element_located((By.CSS_SELECTOR, '#dropdownMenu04')))
         bom_eng.click()
+        driver.implicitly_wait(5)
         bom_spa = WebDriverWait(driver, 100).until(
             ec.presence_of_element_located((By.CSS_SELECTOR, '#dropdownMenu05')))
         bom_spa.click()
+        driver.implicitly_wait(5)
         bom_ger = WebDriverWait(driver, 100).until(
             ec.presence_of_element_located((By.CSS_SELECTOR, '#dropdownMenu06')))
         bom_ger.click()
+        driver.implicitly_wait(5)
         bom_ita = WebDriverWait(driver, 100).until(
             ec.presence_of_element_located((By.CSS_SELECTOR, '#dropdownMenu07')))
         bom_ita.click()
+        driver.implicitly_wait(5)
         bom_fre = WebDriverWait(driver, 100).until(
             ec.presence_of_element_located((By.CSS_SELECTOR, '#dropdownMenu08')))
         bom_fre.click()
