@@ -1,23 +1,43 @@
 # Public API for testing - https://apidojo-yahoo-finance-v1.p.rapidapi.com
 
+# !/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 import requests
+import unittest
+from pyassert import assert_that
 
-# Market Summary API test
-response = requests.request('get', 'https://apidojo-yahoo-finance-v1.p.rapidapi.com/market/get-summary')
-print(response.headers)
 
-# Market Movers API test
-response = requests.request('get', 'https://apidojo-yahoo-finance-v1.p.rapidapi.com/market/get-movers')
-print(response.json)
+class YahooFinanceApi(unittest.TestCase):
 
-# Market Quotes API test
-response = requests.request('get', 'https://apidojo-yahoo-finance-v1.p.rapidapi.com/market/get-quotes')
-print(response.text)
+    def setUp(self):
+        self.response = requests.Response()
 
-# Market Charts API test
-response = requests.request('get', 'https://apidojo-yahoo-finance-v1.p.rapidapi.com/market/get-charts')
-print(response.url)
+    # Market Summary API test
+    def test_YaMarketSummary(self):
+        self.response = requests.request('get', 'https://apidojo-yahoo-finance-v1.p.rapidapi.com/market/get-summary')
+        assert_that(self.response.status_code).is_equal_to(401)
+        assert_that(self.response.content).contains(b'{"message":"Missing RapidAPI application key. Go to https:\\/\\/docs.rapidapi.com\\/docs\\/keys to learn how to get your API application key."}')
 
-# Market Auto-Complete API test
-response = requests.request('get', 'https://apidojo-yahoo-finance-v1.p.rapidapi.com/market/auto-complete')
-print(response.status_code)
+    # Market Movers API test
+    def test_MarketMovers(self):
+        self.response = requests.request('get', 'https://apidojo-yahoo-finance-v1.p.rapidapi.com/market/get-movers')
+        assert_that(self.response.status_code).is_equal_to(401)
+        assert_that(self.response.ok).is_false()
+
+    # Market Quotes API test
+    def test_MarketQuotes(self):
+        self.response = requests.request('get', 'https://apidojo-yahoo-finance-v1.p.rapidapi.com/market/get-quotes')
+        assert_that(self.response.status_code).is_true()
+        assert_that(self.response.status_code).is_equal_to(401)
+
+    # Market Charts API test
+    def test_MarketCharts(self):
+        self.response = requests.request('get', 'https://apidojo-yahoo-finance-v1.p.rapidapi.com/market/get-charts')
+        assert_that(self.response.text).is_true()
+        assert_that(self.response.headers).contains('Content-Type')
+
+    # Market Auto-Complete API test
+    def test_MarketAutoComplete(self):
+        self.response = requests.request('get', 'https://apidojo-yahoo-finance-v1.p.rapidapi.com/market/auto-complete')
+        assert_that(self.response.url).equals('https://apidojo-yahoo-finance-v1.p.rapidapi.com/market/auto-complete')

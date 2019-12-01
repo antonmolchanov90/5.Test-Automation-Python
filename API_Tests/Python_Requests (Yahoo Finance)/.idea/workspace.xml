@@ -14,9 +14,10 @@
     <session id="1820790073">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -31,23 +32,35 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="393" />
+          <entry key="py" value="1477" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="393" />
+          <entry key="Python" value="1477" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Yahoo_Finance_API_Test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="74" lean-forward="true" selection-start-column="74" selection-end-column="74" />
+              <folding>
+                <element signature="e#124#139#0" expanded="true" />
+                <marker date="1575191608525" expanded="true" signature="254:304" ph="..." />
+                <marker date="1575191608525" expanded="true" signature="298:300" ph="..." />
+                <marker date="1575191608525" expanded="true" signature="304:330" ph="..." />
+                <marker date="1575191608525" expanded="true" signature="365:368" ph="..." />
+                <marker date="1575191608525" expanded="true" signature="365:370" ph="..." />
+                <marker date="1575191608525" expanded="true" signature="810:815" ph="..." />
+                <marker date="1575191608525" expanded="true" signature="1103:1108" ph="..." />
+                <marker date="1575191608525" expanded="true" signature="1404:1413" ph="..." />
+                <marker date="1575191608525" expanded="true" signature="1715:1720" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,7 +104,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Python_Requests (GoRest)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../UI_Tests/Python_Selenium_Unittest (Google Search)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -104,6 +118,110 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests for Yahoo_Finance_API_Test.YahooFinanceApi">
+    <configuration name="Unittests for Yahoo_Finance_API_Test.YahooFinanceApi" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Python_Requests (Yahoo Finance)" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Yahoo_Finance_API_Test.YahooFinanceApi&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for Yahoo_Finance_API_Test.YahooFinanceApi.test_MarketAutoComplete" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Python_Requests (Yahoo Finance)" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Yahoo_Finance_API_Test.YahooFinanceApi.test_MarketAutoComplete&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for Yahoo_Finance_API_Test.YahooFinanceApi.test_MarketCharts" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Python_Requests (Yahoo Finance)" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Yahoo_Finance_API_Test.YahooFinanceApi.test_MarketCharts&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for Yahoo_Finance_API_Test.YahooFinanceApi.test_MarketQuotes" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Python_Requests (Yahoo Finance)" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Yahoo_Finance_API_Test.YahooFinanceApi.test_MarketQuotes&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for Yahoo_Finance_API_Test.YahooFinanceApi.test_YaMarketSummary" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Python_Requests (Yahoo Finance)" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Yahoo_Finance_API_Test.YahooFinanceApi.test_YaMarketSummary&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Yahoo_Finance_API" type="tests" factoryName="Unittests">
+      <module name="Python_Requests (Yahoo Finance)" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="/usr/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Yahoo_Finance_API_Test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.Yahoo_Finance_API" />
+      <item itemvalue="Python tests.Unittests for Yahoo_Finance_API_Test.YahooFinanceApi" />
+      <item itemvalue="Python tests.Unittests for Yahoo_Finance_API_Test.YahooFinanceApi.test_MarketQuotes" />
+      <item itemvalue="Python tests.Unittests for Yahoo_Finance_API_Test.YahooFinanceApi.test_MarketCharts" />
+      <item itemvalue="Python tests.Unittests for Yahoo_Finance_API_Test.YahooFinanceApi.test_MarketAutoComplete" />
+      <item itemvalue="Python tests.Unittests for Yahoo_Finance_API_Test.YahooFinanceApi.test_YaMarketSummary" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests for Yahoo_Finance_API_Test.YahooFinanceApi" />
+        <item itemvalue="Python tests.Unittests for Yahoo_Finance_API_Test.YahooFinanceApi.test_YaMarketSummary" />
+        <item itemvalue="Python tests.Unittests for Yahoo_Finance_API_Test.YahooFinanceApi.test_MarketAutoComplete" />
+        <item itemvalue="Python tests.Unittests for Yahoo_Finance_API_Test.YahooFinanceApi.test_MarketCharts" />
+        <item itemvalue="Python tests.Unittests for Yahoo_Finance_API_Test.YahooFinanceApi.test_MarketQuotes" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -118,24 +236,56 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_Yahoo_Finance_API_Test_YahooFinanceApi_test_MarketCharts - 2019.12.01 at 14h 57m 45s.xml">
+      <configuration name="Unittests for Yahoo_Finance_API_Test.YahooFinanceApi.test_MarketCharts" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_Yahoo_Finance_API_Test_YahooFinanceApi_test_MarketCharts - 2019.12.01 at 14h 58m 09s.xml">
+      <configuration name="Unittests for Yahoo_Finance_API_Test.YahooFinanceApi.test_MarketCharts" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_Yahoo_Finance_API_Test_YahooFinanceApi_test_MarketCharts - 2019.12.01 at 14h 59m 40s.xml">
+      <configuration name="Unittests for Yahoo_Finance_API_Test.YahooFinanceApi.test_MarketCharts" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_Yahoo_Finance_API_Test_YahooFinanceApi_test_MarketCharts - 2019.12.01 at 15h 00m 53s.xml">
+      <configuration name="Unittests for Yahoo_Finance_API_Test.YahooFinanceApi.test_MarketCharts" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_Yahoo_Finance_API_Test_YahooFinanceApi_test_MarketAutoComplete - 2019.12.01 at 15h 08m 20s.xml">
+      <configuration name="Unittests for Yahoo_Finance_API_Test.YahooFinanceApi.test_MarketAutoComplete" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_Yahoo_Finance_API_Test_YahooFinanceApi_test_MarketAutoComplete - 2019.12.01 at 15h 10m 01s.xml">
+      <configuration name="Unittests for Yahoo_Finance_API_Test.YahooFinanceApi.test_MarketAutoComplete" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_Yahoo_Finance_API_Test_YahooFinanceApi_test_MarketAutoComplete - 2019.12.01 at 15h 10m 47s.xml">
+      <configuration name="Unittests for Yahoo_Finance_API_Test.YahooFinanceApi.test_MarketAutoComplete" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_Yahoo_Finance_API_Test_YahooFinanceApi - 2019.12.01 at 15h 10m 56s.xml">
+      <configuration name="Unittests for Yahoo_Finance_API_Test.YahooFinanceApi" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_Yahoo_Finance_API_Test_YahooFinanceApi_test_YaMarketSummary - 2019.12.01 at 15h 12m 24s.xml">
+      <configuration name="Unittests for Yahoo_Finance_API_Test.YahooFinanceApi.test_YaMarketSummary" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_Yahoo_Finance_API_Test_YahooFinanceApi - 2019.12.01 at 15h 13m 31s.xml">
+      <configuration name="Unittests for Yahoo_Finance_API_Test.YahooFinanceApi" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="1" y="0" width="1363" height="742" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17835821" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.26094005" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3808752" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.30794165" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -145,17 +295,23 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Yahoo Finance_API_Test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="74" lean-forward="true" selection-start-column="74" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Yahoo Finance_API_Test.py" />
     <entry file="file://$PROJECT_DIR$/Yahoo_Finance_API_Test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="74" lean-forward="true" selection-start-column="74" selection-end-column="74" />
+          <folding>
+            <element signature="e#124#139#0" expanded="true" />
+            <marker date="1575191608525" expanded="true" signature="254:304" ph="..." />
+            <marker date="1575191608525" expanded="true" signature="298:300" ph="..." />
+            <marker date="1575191608525" expanded="true" signature="304:330" ph="..." />
+            <marker date="1575191608525" expanded="true" signature="365:368" ph="..." />
+            <marker date="1575191608525" expanded="true" signature="365:370" ph="..." />
+            <marker date="1575191608525" expanded="true" signature="810:815" ph="..." />
+            <marker date="1575191608525" expanded="true" signature="1103:1108" ph="..." />
+            <marker date="1575191608525" expanded="true" signature="1404:1413" ph="..." />
+            <marker date="1575191608525" expanded="true" signature="1715:1720" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

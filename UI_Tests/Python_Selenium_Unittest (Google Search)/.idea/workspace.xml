@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a6ab498-4451-4a8d-94e2-a0541d9c3c71" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../API_Tests/Python_Requests (Yahoo Finance)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../API_Tests/Python_Requests (Yahoo Finance)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../API_Tests/Python_Requests (Yahoo Finance)/Yahoo_Finance_API_Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../API_Tests/Python_Requests (Yahoo Finance)/Yahoo_Finance_API_Test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Python_Selenium (Facebook LogIn)/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Selenium (Facebook LogIn)/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Python_Selenium (Facebook LogIn)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Selenium (Facebook LogIn)/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Python_Selenium (Facebook LogIn)/FacebookLogin_Locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Selenium (Facebook LogIn)/FacebookLogin_Locators.py" afterDir="false" />
@@ -49,23 +51,24 @@
     <session id="-914738915">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.48" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="1" />
+          <entry key="py" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="1" />
+          <entry key="Python" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -81,7 +84,20 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GoogleSearch_UI_Test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-90">
+              <caret column="21" selection-start-column="21" selection-end-column="21" />
+              <folding>
+                <element signature="e#48#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -127,7 +143,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../API_Tests/Python_Requests (GoRest)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -220,6 +236,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="0" width="1363" height="742" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11865672" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -247,8 +264,11 @@
     <entry file="file://$PROJECT_DIR$/Google_Search_Test.py" />
     <entry file="file://$PROJECT_DIR$/GoogleSearch_UI_Test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="-90">
           <caret column="21" selection-start-column="21" selection-end-column="21" />
+          <folding>
+            <element signature="e#48#63#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
