@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="930631e1-af66-4cbb-ac9a-4d986e7c2488" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/features/steps/youtube_search_steps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_Selenium (Facebook LogIn)/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Selenium (Facebook LogIn)/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_Selenium (Facebook LogIn)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Selenium (Facebook LogIn)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_Selenium (Facebook LogIn)/FacebookLogin_Locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Selenium (Facebook LogIn)/FacebookLogin_Locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_Selenium (Facebook LogIn)/FacebookLogin_LoginDetails.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_Selenium (Facebook LogIn)/FacebookLogin_UI_Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Selenium (Facebook LogIn)/FacebookLogin_UI_Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_Selenium_Unittest (Google Search)/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Selenium_Unittest (Google Search)/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_Selenium_Unittest (Google Search)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Selenium_Unittest (Google Search)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_Selenium_Unittest (Google Search)/GoogleSearch_UI_Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Selenium_Unittest (Google Search)/GoogleSearch_UI_Test.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1785425952">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="feature" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1676836116">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="feature" value="276" />
+          <entry key="py" value="554" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Cucumber" value="276" />
+          <entry key="Python" value="554" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="feature" value="4" />
+          <entry key="py" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Cucumber" value="4" />
+          <entry key="Python" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/features/steps/youtube_search_steps.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="20" selection-start-column="20" selection-end-column="20" />
+              <folding>
+                <marker date="1579417189649" expanded="true" signature="262:375" ph="..." />
+                <marker date="1579417189649" expanded="true" signature="453:668" ph="..." />
+                <marker date="1579417189649" expanded="true" signature="716:905" ph="..." />
+                <marker date="1579417189649" expanded="true" signature="1297:1499" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/youtube_search.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="58" selection-start-column="58" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/youtube_search.feature" />
+        <option value="$PROJECT_DIR$/features/youtube_search.feature" />
+        <option value="$PROJECT_DIR$/features/steps/youtube_search_steps.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
+    <option name="width" value="1363" />
+    <option name="height" value="742" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Python_Behave_Selenium [BDD] (Youtube)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_Behave_Selenium [BDD] (Youtube)" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python_Behave_Selenium [BDD] (Youtube)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_Behave_Selenium [BDD] (Youtube)" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python_Behave_Selenium [BDD] (Youtube)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_Behave_Selenium [BDD] (Youtube)" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Python_Selenium_Unittest (Google Search)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="930631e1-af66-4cbb-ac9a-4d986e7c2488" name="Default Changelist" comment="" />
+      <created>1578822186717</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578822186717</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1" y="0" width="1363" height="742" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.28687197" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Youtube_search.feature" />
+    <entry file="file://$PROJECT_DIR$/youtube_search.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="116" lean-forward="true" selection-start-line="5" selection-start-column="116" selection-end-line="5" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/steps/youtube_search.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/youtube_search.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="58" selection-start-column="58" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/steps/youtube_search_steps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+          <folding>
+            <marker date="1579417189649" expanded="true" signature="262:375" ph="..." />
+            <marker date="1579417189649" expanded="true" signature="453:668" ph="..." />
+            <marker date="1579417189649" expanded="true" signature="716:905" ph="..." />
+            <marker date="1579417189649" expanded="true" signature="1297:1499" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

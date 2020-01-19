@@ -14,10 +14,11 @@
     <session id="1820790073">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.26" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -48,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/Yahoo_Finance_API_Test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="74" lean-forward="true" selection-start-column="74" selection-end-column="74" />
+              <caret column="74" selection-start-column="74" selection-end-column="74" />
               <folding>
                 <element signature="e#124#139#0" expanded="true" />
                 <marker date="1575191608525" expanded="true" signature="254:304" ph="..." />
@@ -89,6 +90,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -100,11 +102,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../UI_Tests/Python_Selenium_Unittest (Google Search)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../UI_Tests/Python_Behave_Selenium [BDD]" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -270,7 +271,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="0" width="1363" height="742" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17835821" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -299,7 +299,7 @@
     <entry file="file://$PROJECT_DIR$/Yahoo_Finance_API_Test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="74" lean-forward="true" selection-start-column="74" selection-end-column="74" />
+          <caret column="74" selection-start-column="74" selection-end-column="74" />
           <folding>
             <element signature="e#124#139#0" expanded="true" />
             <marker date="1575191608525" expanded="true" signature="254:304" ph="..." />
