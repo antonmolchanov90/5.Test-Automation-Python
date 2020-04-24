@@ -1,0 +1,6 @@
+node_modules/
+Appium-linux-1.17.0.AppImage
+SDK/
+AUT.apk
+package-lock.json
+package.json
